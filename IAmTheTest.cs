@@ -23,7 +23,7 @@ namespace SirenValidity
             return sum % 10 == 0;
         }
 
-        private static int CalcChecksum(string siren)
+        private int CalcChecksum(string siren)
         {
             int sum = 0;
             for (int i = 0; i < siren.Length; i++)
